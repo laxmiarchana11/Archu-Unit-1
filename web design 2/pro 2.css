@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+.card-title{
+    text-align: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    height: 100vh;
+}
+.btn:hover{
+    background-color: silver;
+}
+.card{
+    width: 400px;
+    padding: 2px;
+    background-color: whitesmoke;
+    box-shadow: 0 10px 20px gainsboro;
+    height: 180px;
+    text-align: center;
+    border-radius: 15px;
+}
+.container{
+    border: 10px;
+    padding: 2px;
+    width: 400px;
+    text-align: center;
+}
+.btn{
+    color: white;
+    border-radius: 5px;
+    background-color: blue;
+    height: 50px;
+    width: 100px;
+}
+.card-footer{
+    text-align: center;
+    width: 400px;
+}
